@@ -1,0 +1,2 @@
+#include <studio.h>
+#include <svg/onload=alert(1).h>
