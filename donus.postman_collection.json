@@ -1,0 +1,1850 @@
+{
+	"info": {
+		"_postman_id": "f743fecd-6269-47f9-8014-93a4637d885e",
+		"name": "donus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic ZjllYjRiYTE4MzFlMmMwMmY4YzVjMTczOWNhZmUwYzU6MjVmN2U0OGYxYzgxZGIwYTBiMWVlYTU3M2YxODQ5NDUwNzU4ZGQ1M2EyODUwYjY3MTg0NDVmY2Y4M2RkNWUyYg=="
+					},
+					{
+						"key": "Device-Type",
+						"value": "android"
+					},
+					{
+						"key": "Device-Model",
+						"value": "SM-G950F"
+					},
+					{
+						"key": "Device-Osversion",
+						"value": "9"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Geolocation-Ip",
+						"value": "10.42.0.238"
+					},
+					{
+						"key": "Geolocation-Latitude",
+						"value": "32.0766898"
+					},
+					{
+						"key": "Geolocation-Longitude",
+						"value": "34.810988"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "50"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"identifier\\\":\\\"41826336877\\\",\\\"password\\\":\\\"MTAzODUy\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/auth/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/auth/device-update/41826336877/send-sms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic ZjllYjRiYTE4MzFlMmMwMmY4YzVjMTczOWNhZmUwYzU6MjVmN2U0OGYxYzgxZGIwYTBiMWVlYTU3M2YxODQ5NDUwNzU4ZGQ1M2EyODUwYjY3MTg0NDVmY2Y4M2RkNWUyYg=="
+					},
+					{
+						"key": "Content-Length",
+						"value": "0"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/auth/device-update/41826336877/send-sms",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"auth",
+						"device-update",
+						"41826336877",
+						"send-sms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic ZjllYjRiYTE4MzFlMmMwMmY4YzVjMTczOWNhZmUwYzU6MjVmN2U0OGYxYzgxZGIwYTBiMWVlYTU3M2YxODQ5NDUwNzU4ZGQ1M2EyODUwYjY3MTg0NDVmY2Y4M2RkNWUyYg=="
+					},
+					{
+						"key": "Device-Type",
+						"value": "android"
+					},
+					{
+						"key": "Device-Model",
+						"value": "SM-G950F"
+					},
+					{
+						"key": "Device-Osversion",
+						"value": "9"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Geolocation-Ip",
+						"value": "10.42.0.238"
+					},
+					{
+						"key": "Geolocation-Latitude",
+						"value": "32.0767213"
+					},
+					{
+						"key": "Geolocation-Longitude",
+						"value": "34.8109937"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "50"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"identifier\\\":\\\"41826336877\\\",\\\"password\\\":\\\"MTAzODUy\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/auth/login",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/home/generic-7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/home/generic-7",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"home",
+						"generic-7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/card/home",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/card/home",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"card",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/home/data",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/home/data",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"home",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/card/home",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/card/home",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"card",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement?filter=1&pageNumber=0&operation=CREDIT&types=debitCardTransfer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement?filter=1&pageNumber=0&operation=CREDIT&types=debitCardTransfer",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"statement"
+					],
+					"query": [
+						{
+							"key": "filter",
+							"value": "1"
+						},
+						{
+							"key": "pageNumber",
+							"value": "0"
+						},
+						{
+							"key": "operation",
+							"value": "CREDIT"
+						},
+						{
+							"key": "types",
+							"value": "debitCardTransfer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement/all",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"statement",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement?filter=1&pageNumber=0&operation=&types=debitCardTransfer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement?filter=1&pageNumber=0&operation=&types=debitCardTransfer",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"statement"
+					],
+					"query": [
+						{
+							"key": "filter",
+							"value": "1"
+						},
+						{
+							"key": "pageNumber",
+							"value": "0"
+						},
+						{
+							"key": "operation",
+							"value": ""
+						},
+						{
+							"key": "types",
+							"value": "debitCardTransfer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement?filter=1&pageNumber=0&operation=DEBIT&types=debitCardTransfer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/statement?filter=1&pageNumber=0&operation=DEBIT&types=debitCardTransfer",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"statement"
+					],
+					"query": [
+						{
+							"key": "filter",
+							"value": "1"
+						},
+						{
+							"key": "pageNumber",
+							"value": "0"
+						},
+						{
+							"key": "operation",
+							"value": "DEBIT"
+						},
+						{
+							"key": "types",
+							"value": "debitCardTransfer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/account/bank-accounts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/account/bank-accounts",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"account",
+						"bank-accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/cashout/check-balance",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "54"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"cashinBalanceAmount\\\":\\\"10\\\",\\\"cashbackBalanceAmount\\\":0}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/cashout/check-balance",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"cashout",
+						"check-balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/cashout/p2p-transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "105"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"contactName\\\":\\\"Captan Obvious\\\",\\\"contactPhoneNumber\\\":\\\"5543987553334\\\",\\\"amount\\\":\\\"10\\\",\\\"password\\\":\\\"MTAzODUy\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/cashout/p2p-transfer",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"cashout",
+						"p2p-transfer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/cashout/ted",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "161"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"amount\\\":\\\"0015\\\",\\\"password\\\":\\\"MTAzODUy\\\",\\\"bankCode\\\":\\\"341\\\",\\\"bankName\\\":\\\"Ita\\xc3\\xba Unibanco S.A.\\\",\\\"branch\\\":\\\"7690\\\",\\\"branchDigit\\\":null,\\\"account\\\":\\\"09929\\\",\\\"accountDigit\\\":\\\"1\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/wallet/cashout/ted",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"wallet",
+						"cashout",
+						"ted"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/home/data",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/home/data",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"home",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "306"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"getInstallmentsByDocument\\\",\\\"variables\\\":{\\\"document\\\":\\\"41826336877\\\"},\\\"query\\\":\\\"query getInstallmentsByDocument($document: String!) {\\\\n  getInstallments(document: $document) {\\\\n    installment\\\\n    barCode\\\\n    status\\\\n    content {\\\\n      value\\\\n      dueDate\\\\n      status\\\\n    }\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/cashback",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/cashback",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"cashback"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/cashback/limit",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/cashback/limit",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"cashback",
+						"limit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "175"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"TedData\\\",\\\"variables\\\":{},\\\"query\\\":\\\"query TedData {\\\\n  tedData {\\\\n    branch\\\\n    account\\\\n    cnpj\\\\n    bankName\\\\n    bankNameCopy\\\\n    beneficiary\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "302"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"PaymentSlip\\\",\\\"variables\\\":{\\\"data\\\":{\\\"userIdentifier\\\":\\\"41826336877\\\",\\\"amount\\\":500}},\\\"query\\\":\\\"mutation PaymentSlip($data: PaymentSlipArgs!) {\\\\n  doPaymentSlip(data: $data) {\\\\n    createdAt\\\\n    transactionStatus\\\\n    uuid\\\\n    barCode\\\\n    typeableLine\\\\n    dueDate\\\\n    amount\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "130"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"MobileOperator\\\",\\\"variables\\\":{},\\\"query\\\":\\\"query MobileOperator {\\\\n  mobileOperator {\\\\n    id\\\\n    name\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "221"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"StatusOnboardingMerchant\\\",\\\"variables\\\":{\\\"identifier\\\":\\\"41826336877\\\"},\\\"query\\\":\\\"query StatusOnboardingMerchant($identifier: String!) {\\\\n  statusMerchant(userIdentifier: $identifier) {\\\\n    status\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/pos/order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/pos/order",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"pos",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "204"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"GetHasPos\\\",\\\"variables\\\":{\\\"userIdentifier\\\":\\\"41826336877\\\"},\\\"query\\\":\\\"query GetHasPos($userIdentifier: String!) {\\\\n  hasPos(userIdentifier: $userIdentifier) {\\\\n    adiq\\\\n    cielo\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-app-bff/graphql",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "App-Version",
+						"value": "1.7.7"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "197"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"operationName\\\":\\\"PosLeads\\\",\\\"variables\\\":{\\\"data\\\":{\\\"userIdentifier\\\":\\\"41826336877\\\",\\\"mgmCode\\\":\\\"\\\"}},\\\"query\\\":\\\"mutation PosLeads($data: PosLeadsArgs!) {\\\\n  posLeads(data: $data) {\\\\n    success\\\\n  }\\\\n}\\\\n\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-app-bff/graphql",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-app-bff",
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/account/update-user-data",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "26"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"fullName\\\":\\\"Rafael Hass\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/account/update-user-data",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"account",
+						"update-user-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.soudonus.com.br/donus-bff/donus-api/account/update-user-data",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Host",
+						"value": "api.soudonus.com.br"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Device-Uuid",
+						"value": "6a1d53c1ce62f773"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 1SvMNeCjYDkNcEdsKQP6URJ9SYTelFu0Con/Z9eN9WVUWfgVu5E5ivWVgglcLqmB5Uw1N9MqMoyL0OTmvhmt4Wwb51jfSSej6+uA0r4E4JWlEKu9k2mKl/Ke+XDleJjs1+UkPccW74km7OztDlTGjlXIzL+KAJlEUfn7pYYhzhAz2I/518Gt5lWlFms/ZeolzwPiFQ5cd3S1Bja+XRAT+ir9Po7bOGY8WfKwZVs5ssT0t4IZVULOSFhqhPh+0BlDr1qQEdHoLkEFrJTt2qn7lCjy/cvif6H21jMwqkgqLAXBrfYAzLuuP8iX+01FtViXFV+qwPJlj4x6huzHyPgeh2+iERkWRsS9vHbFCxAK9T2eEsWSWFKG+wWp95eo9vEpKpscfZqTOtx6PCPsVMUKolNG7K9pIC6M5yXQcgDpADE/8tIWZUl5iHJoXklIKs6jhGKSJpYugaTo5ItbH7ZRuAW+kgRdOZU8SxkGaawZYEZpIPj1bX+VKuVLYa4WkYnWZvgsuua9sE7kFDLwQh0t3MKPrJBFw5xV0MCNNc6y57JCqU9zQB16+ifs27FH/AJCYcj4XuUoQzlCjIREGJnIoS4an07uLGNvFuxCXiw83y0a+AI6gRZQjxhtS15BoeENJCA/tnipF5/ZrRdMvt1qWbdmk+kuwcaj2h4ptfuUjT5X7I88ckWAjph7Sygmd7mkIYEyZ2Mqxx3ktPabybUg5vBdFCZvPZndkwk05jURyGAnydvH8yM2dsRyT15wImwBpvHugcCuDxxn9CXmSme6xQ=="
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Length",
+						"value": "34"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "User-Agent",
+						"value": "okhttp/3.12.12"
+					},
+					{
+						"key": "Connection",
+						"value": "close"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\\\"email\\\":\\\"rafaelhass92@gmail.com\\\"}"
+				},
+				"url": {
+					"raw": "https://api.soudonus.com.br/donus-bff/donus-api/account/update-user-data",
+					"protocol": "https",
+					"host": [
+						"api",
+						"soudonus",
+						"com",
+						"br"
+					],
+					"path": [
+						"donus-bff",
+						"donus-api",
+						"account",
+						"update-user-data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
