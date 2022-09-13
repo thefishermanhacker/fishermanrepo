@@ -1,0 +1,293 @@
+openapi: 3.0.1
+info:
+  title: Atlas Copco Contoso Orders API v1
+  description: Contoso Orders Demo application
+  version: v1
+servers:
+  - url: https://api-tst.atlascopco.group/shared/co/contosoorders/v1
+paths:
+  /sys/health:
+    get:
+      summary: Get Health
+      description: Provides an indication about the health of the API
+      operationId: get-sys-health
+      responses:
+        '200':
+          description: OK - healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SysHealthGet200ApplicationJsonResponse'
+              example:
+                healthStatus: string
+                totalDuration: string
+        '503':
+          description: Service Unavailable - not healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SysHealthGet503ApplicationJsonResponse'
+              example:
+                healthStatus: string
+                totalDuration: string
+  /order:
+    post:
+      summary: Create Order
+      description: Post a new order
+      operationId: Create-Order
+      requestBody:
+        description: Contoso Order Schema
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderPostRequest'
+            example:
+              customerId: string
+              customerName: string
+              customerEmail: string
+              orderReference: string
+              orderDate: string
+              items:
+                - itemId: string
+                  itemDescription: string
+                  qty: 0
+                  uom: string
+      responses:
+        '200':
+          description: OK
+    get:
+      summary: Get Order
+      operationId: Get-Order
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderGetRequest'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/OrderGetRequest-1'
+            example: <OrderGetRequest-1 />
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderGet200ApplicationJsonResponse'
+              example:
+                - CustomerId: string
+                  CustomerName: string
+                  CustomerEmail: string
+                  OrderReference: string
+                  OrderDate: string
+                  Items:
+                    - ItemId: 0
+                      ItemDescription: string
+                      Qty: 0
+                      UOM: string
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/OrderGet200ApplicationXmlResponse'
+              example: <OrderGet200ApplicationXmlResponse />
+  '/order/{id}':
+    get:
+      summary: Your GET endpoint
+      description: Your GET endpoint
+      operationId: Get-Order-by-Id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order-id-Get200ApplicationJsonResponse'
+              example:
+                CustomerId: string
+                CustomerName: string
+                CustomerEmail: string
+                OrderReference: string
+                OrderDate: string
+                Items:
+                  - ItemId: 0
+                    ItemDescription: string
+                    Qty: 0
+                    UOM: string
+components:
+  schemas:
+    SysHealthGet200ApplicationJsonResponse:
+      type: object
+      properties:
+        healthStatus:
+          type: string
+        totalDuration:
+          type: string
+    SysHealthGet503ApplicationJsonResponse:
+      type: object
+      properties:
+        healthStatus:
+          type: string
+        totalDuration:
+          type: string
+    OrderPostRequest:
+      required:
+        - customerId
+        - customerName
+        - orderId
+        - orderDate
+        - items
+      type: object
+      properties:
+        customerId:
+          type: string
+        customerName:
+          type: string
+        customerEmail:
+          type: string
+        orderReference:
+          type: string
+        orderDate:
+          type: string
+          format: date
+        items:
+          minItems: 1
+          uniqueItems: true
+          type: array
+          items:
+            required:
+              - itemId
+              - qty
+              - uom
+            type: object
+            properties:
+              itemId:
+                type: string
+              itemDescription:
+                type: string
+              qty:
+                type: number
+              uom:
+                type: string
+      description: ''
+    OrderGetRequest:
+      type: object
+    OrderGetRequest-1:
+      type: object
+    OrderGet200ApplicationJsonResponse:
+      minItems: 1
+      uniqueItems: true
+      type: array
+      items:
+        required:
+          - CustomerId
+          - CustomerName
+          - CustomerEmail
+          - OrderReference
+          - OrderDate
+          - Items
+        type: object
+        properties:
+          CustomerId:
+            minLength: 1
+            type: string
+          CustomerName:
+            minLength: 1
+            type: string
+          CustomerEmail:
+            minLength: 1
+            type: string
+          OrderReference:
+            minLength: 1
+            type: string
+          OrderDate:
+            minLength: 1
+            type: string
+          Items:
+            minItems: 1
+            uniqueItems: true
+            type: array
+            items:
+              required:
+                - ItemId
+                - ItemDescription
+                - Qty
+                - UOM
+              properties:
+                ItemId:
+                  type: number
+                ItemDescription:
+                  minLength: 1
+                  type: string
+                Qty:
+                  type: number
+                UOM:
+                  minLength: 1
+                  type: string
+      description: ''
+    OrderGet200ApplicationXmlResponse:
+      type: object
+    Order-id-Get200ApplicationJsonResponse:
+      required:
+        - CustomerId
+        - CustomerName
+        - CustomerEmail
+        - OrderReference
+        - OrderDate
+        - Items
+      type: object
+      properties:
+        CustomerId:
+          minLength: 1
+          type: string
+        CustomerName:
+          minLength: 1
+          type: string
+        CustomerEmail:
+          minLength: 1
+          type: string
+        OrderReference:
+          minLength: 1
+          type: string
+        OrderDate:
+          minLength: 1
+          type: string
+        Items:
+          minItems: 1
+          uniqueItems: true
+          type: array
+          items:
+            required:
+              - ItemId
+              - ItemDescription
+              - Qty
+              - UOM
+            properties:
+              ItemId:
+                type: number
+              ItemDescription:
+                minLength: 1
+                type: string
+              Qty:
+                type: number
+              UOM:
+                minLength: 1
+                type: string
+      description: ''
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: apikey
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: apikey
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
